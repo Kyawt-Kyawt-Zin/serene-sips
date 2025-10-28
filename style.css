@@ -1,4 +1,139 @@
+/* resetting rules  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f0e2c5;
   color: #49281a;
+}
+
+/* header section  */
+header {
+  border: 2px solid #000;
+  text-align: center;
+  padding: 150px 0px;
+}
+
+header h1 {
+  font-family: "Playfair Display SC", serif;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+header p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 45px;
+}
+
+header a {
+  background-color: #49281a;
+  color: #f0e2c5;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  border-radius: 9px;
+}
+
+/* nav section  */
+nav {
+  /* border: 2px solid #000; */
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  padding: 30px 0;
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #49281a;
+  color: #f0e2c5;
+  margin-right: 30px;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 9px;
+}
+
+/* menu section  */
+#menu,
+#about-us,
+#contact-us,
+footer {
+  /* border: 2px solid #000; */
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+#menu-h2,
+#about-us h2,
+#contact-us h2 {
+  font-family: "Playfair Display SC", serif;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+/* about us section  */
+
+#about-us p,
+#contact-us p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  padding: 10px 0;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+/* contact us section (same with about us, so joint with ,) */
+#contact-us form {
+  /* border: 2px solid #000; */
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+}
+
+form div {
+  /* border: 2px solid black; */
+  padding: 20px 0;
+}
+
+.form-label {
+  /* border: 1px solid #000; */
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.form-control {
+  width: 500px;
+  background-color: #f0e2c5;
+  border: none;
+  outline: none;
+  border-bottom: 1px dotted #49281a;
+}
+
+.btn-submit {
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: #49281a;
+  color: #f0e2c5;
+  border-radius: 9px;
+  margin-left: 160px;
+}
+
+/* footer section */
+footer {
+  text-align: center;
+  font-family: "Lato", sans-serif;
 }
